@@ -44,6 +44,7 @@ res.writeHead(200, {"content-type": "application/json"})
     
  }
 })
+//listen
 server.listen(config.port, () => {
  console.log(`Server is running on port ${config.port}`);
 })
